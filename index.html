@@ -1,152 +1,97 @@
+
 <!DOCTYPE html>
-<html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SyrenkaRP - Podania</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em 0;
-            text-align: center;
-        }
-
-        nav {
-            background-color: #444;
-            padding: 1em;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            margin: 0 1em;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 2em auto;
-            padding: 1em;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 1em;
-        }
-
-        .categories {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1em;
-        }
-
-        .category {
-            background: #eaeaea;
-            padding: 1em;
-            border-radius: 8px;
-            text-align: center;
-        }
-
-        .category h3 {
-            margin-bottom: 0.5em;
-        }
-
-        .category a {
-            display: inline-block;
-            margin-top: 0.5em;
-            padding: 0.5em 1em;
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-        }
-
-        .category a:hover {
-            background-color: #555;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-            margin-top: 2em;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>SyrenkaRP - Twoje Centrum Rozgrywki</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#">Strona Główna</a></li>
-            <li><a href="#">O Nas</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">Podania</a></li>
-        </ul>
-    </nav>
-
+    <title>Hostway.PL</title>
+  </head>
+  <body>
     <div class="container">
-        <h2>Kategorie Podań</h2>
-        <div class="categories">
-            <div class="category">
-                <h3>Frakcje</h3>
-                <p>Złóż podanie do dowolnej frakcji dostępnej w grze.</p>
-                <a href="#">Zobacz więcej</a>
-            </div>
-            <div class="category">
-                <h3>Firmy</h3>
-                <p>Chcesz dołączyć do firm? Aplikuj już teraz.</p>
-                <a href="#">Zobacz więcej</a>
-            </div>
-            <div class="category">
-                <h3>Administracja</h3>
-                <p>Dołącz do administracji i pomóż zarządzać serwerem.</p>
-                <a href="#">Zobacz więcej</a>
-            </div>
-            <div class="category">
-                <h3>Ciemna Strona</h3>
-                <p>Wejdź w świat przestępczości. Złóż podanie.</p>
-                <a href="#">Zobacz więcej</a>
-            </div>
-            <div class="category">
-                <h3>Pozostałe</h3>
-                <p>Znajdź kategorię, która Cię interesuje.</p>
-                <a href="#">Zobacz więcej</a>
-            </div>
-        </div>
+      <header>
+
+        <nav>
+          <a href="#" class="hide-desktop">
+          </a>
+          <ul class="show-desktop hide-mobile" id="nav">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="images/exit.svg" alt="exit menu" />
+            </li>
+            <li><a href="https://discord.gg/rq8GUyeucx">Discord</a></li>
+            <li><a href="https://discord.gg/rq8GUyeucx">Panel</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section>
+        <img src="images/server.svg" alt="server graphic" class="server" />
+
+        <h1>Spokojne miejsce na twoje zasoby</h1>
+        <p class="subhead">Przejdź do nas i płać tylko za to z czego korzystasz.</p>
+
+        <img
+          src="images/scroll.svg"
+          alt="scroll down"
+          class="scroll hide-mobile show-desktop"
+        />
+      </section>
     </div>
 
+    <div class="blue-container">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="images/icon-1.svg" alt="Calender icon" />
+            <p>
+              Prosta przedpłata co miesiąc, jak z telefonem na kartę
+            </p>
+          </li>
+          <li>
+            <img src="images/icon-2.svg" alt="Calender icon" />
+            <p>
+              Uruchamiasz dowolny serwer gier
+              Od graczy dla graczy
+              Społeczność i administracja tworzy poradniki
+            </p>
+          </li>
+          <li>
+            <img src="images/icon-3.svg" alt="Calender icon" />
+            <p>
+              Rozmowy na  Discordzie 
+              Osoby techniczne w zgłoszeniach
+              Gwarantowane zasoby RAM i dysku
+              Uptime 99,8% !
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <h2>Discord</h2>
+      <a href="https://discord.gg/rq8GUyeucx" class="cta">Wbij na Discorda</a>
+    </div>
+
+    <div class="container">
+      <h2>Panel</h2>
+      <a href="https://discord.gg/rq8GUyeucx" class="cta">Panel</a>
+    </div>
+
+
     <footer>
-        <p>&copy; 2025 SyrenkaRP. Wszystkie prawa zastrzeżone.</p>
+      <div class="footer-container">
+        <div class="container">
+          <a href="#">
+          </a>
+          <p>Hostway.PL 2023</p>
+          <ul class="footer-links">
+          </ul>
+        </div>
+      </div>
     </footer>
-</body>
-</html>
+
+
